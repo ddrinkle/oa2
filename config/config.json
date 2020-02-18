@@ -1,0 +1,24 @@
+{
+  "environment": "dev",
+  "app": {
+    "port": 8001,
+    "accesslog": "/var/log/github.com/ddrinkle/oa2-access.log",
+    "errorlog": "/var/log/github.com/ddrinkle/oa2-error.log",
+    "auth": {
+      "cryptkey": "ydNzcXHzWk9C23CKpmYyaQ2yfmA3S4nD",
+      "signingkey": "YGFICHoGXINrpBOuMRv6mkavrRhZ0RZs"
+    },
+    "baseurl" : "http://localhost:8001"
+  },
+  "mysql": {
+    "addr": "www.blueharbortech.com:3306",
+    "user": "root",
+    "passwd": "vp2kfimq",
+    "dbname": "auth"
+  },
+  "redis": {
+    "hostname": "www.blueharbortech",
+    "port": 6379
+  },
+  "db_encryption_key":"33zuWSUgtZCsfGA46eRNBRPauVx9AKUc"
+}
